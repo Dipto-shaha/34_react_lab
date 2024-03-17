@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import './App.css'
-function App() {
+function Calculator() {
   const [textboxes, setTextboxes] = useState([]);
   const [sum, setSum] = useState(0);
   const [warning, setWarning] = useState('');
@@ -57,4 +57,4 @@ function App() {
   );
 }
 
-export default App
+export default Calculator

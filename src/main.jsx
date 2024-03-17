@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './Calculator.jsx'
+import Calculator from './Calculator.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -10,7 +10,7 @@ import TaskManger from './TaskManger.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<App></App>,
+    element:<Calculator></Calculator>,
   },{
     path:"/task",
     element:<TaskManger></TaskManger>
