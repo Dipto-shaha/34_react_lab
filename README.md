@@ -8,7 +8,7 @@ This repository contains the code for a Task Manager and Calculator application,
 
 The project consists of two main components:
 
-1. **Task Manager**: This component will render upder route /task.
+1. **Task Manager**: This component will render under route /task.
 - To add a new task, click on the "Add New Task" button. Fill in the title and body of the task, then click "Add Task".
 - To edit an existing task, click on the "Edit" button next to the task you want to edit. Update the title and body as desired, then click "Update Task".
 - To delete a task, click on the "Delete" button next to the task you want to remove.
